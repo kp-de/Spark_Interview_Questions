@@ -12,3 +12,6 @@ Ans: Multiple options:
 1. Rename the column from one of the DFs and use that to join
 2. In the post-join DF, use qualified name for columns. e.g. originalDF1.col("col_name"). Spark maintains a relationship of cols from its source DFs based on unique Ids, so it will be able to map columns to their source dataframe(s)
 Other options can also be evaluated.
+
+### 3. How will you read from a file with mulit-char delimiters? e.g. '@@#'
+Ans: https://medium.com/towards-artificial-intelligence/pyspark-process-multiple-delimited-data-ef99fa05c6f7
