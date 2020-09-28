@@ -1,4 +1,4 @@
-# Spark_Interview_Questions
+# Spark Interview Questions
 
 ### 1. How will you parse a file with a date field which has multiple date formats? E.g. some records are in MM-DD-YYYY format, some are in YY-MM-DD, some are in YYYY-MM-DD format.
 
