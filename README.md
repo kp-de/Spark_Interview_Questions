@@ -23,5 +23,6 @@ SparkContext sc = new SparkContext();
       
  Only works if you have the driver (deployment in client mode)     
       
-# Followup:
-How will you do this if the job is deployed in cluster deploy-mode( which means the driver is on the cluster somewhere)
+#### Followup:
+#### How will you do this if the job is deployed in cluster deploy-mode( which means the driver is on the cluster somewhere)
+You can save applicationId to a file on hdfs/ S3/ any other layer and then read it from there in your code/ email notification (when the file gets created) etc.
