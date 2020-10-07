@@ -15,3 +15,13 @@ Other options can also be evaluated.
 
 ### 3. How will you read from a file with mulit-char delimiters? e.g. '@@#'
 Ans: https://medium.com/towards-artificial-intelligence/pyspark-process-multiple-delimited-data-ef99fa05c6f7
+
+
+### 4. How will you get the YARN application Id for your Spark job?
+SparkContext sc = new SparkContext();
+      sc.applicationId();
+      
+ Only works if you have the driver (deployment in client mode)     
+      
+# Followup:
+How will you do this if the job is deployed in cluster deploy-mode( which means the driver is on the cluster somewhere)
